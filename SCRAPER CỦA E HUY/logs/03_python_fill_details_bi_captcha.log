@@ -1,0 +1,17 @@
+LOOP batch=1 remaining=395 time=11:24
+File: C:\Users\Public\Documents\UIT\UIT\DS111\DoAn_DS111\data\raw\lazada_tai_nghe.csv
+Profile Chrome: C:\Users\Public\Documents\UIT\UIT\DS111\DoAn_DS111\scraper\chrome_profile
+444 dòng, 396 dòng thiếu chi tiết. Đợt này làm tối đa 40.
+  [!] Gặp captcha. Hãy tự giải trong cửa sổ Chrome (chờ tối đa 300s)...
+LOOP SLEEP 2397s
+LOOP batch=2 remaining=362 time=12:06
+File: C:\Users\Public\Documents\UIT\UIT\DS111\DoAn_DS111\data\raw\lazada_tai_nghe.csv
+Profile Chrome: C:\Users\Public\Documents\UIT\UIT\DS111\DoAn_DS111\scraper\chrome_profile
+444 dòng, 363 dòng thiếu chi tiết. Đợt này làm tối đa 40.
+  [!] Gặp captcha. Hãy tự giải trong cửa sổ Chrome (chờ tối đa 300s)...
+
+[X] Bị chặn và captcha không được giải -> DỪNG đợt này. Đợi 30-60 phút rồi chạy lại (dữ liệu đã lưu, sẽ tự resume).
+
+Xong đợt: xử lý 0 sản phẩm. Tổng dòng trong file: 444.
+LOOP BLOCKED count=1
+LOOP SLEEP 2494s

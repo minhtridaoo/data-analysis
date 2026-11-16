@@ -1,0 +1,14 @@
+﻿TIẾN ĐỘ THU THẬP LAZADA - tai nghe bluetooth (đồ án DS111)
+Cập nhật lúc      : 2026-11-14 00:43:10
+Có chi tiết       : 441 / 444 dòng  (99%)
+  - từ API (có sao 1-5)   : 48
+  - đọc từ giao diện       : 393
+Chỉ xem trên app  : 2
+Lỗi/timeout       : 1
+Còn chờ           : 0
+File gộp gần nhất : lazada_chitiet_STATUS_done.json (lúc 00:41:54)  - tổng 19 file
+Dự kiến xong      : ĐÃ XONG
+Trạng thái cuối   : HOÀN TẤT (14/11/2026 ~00:42) - 441/444 dòng có chi tiết, 0 captcha. Xem README mục 6.
+
+Lưu ý: file này cập nhật mỗi phút theo dữ liệu ĐÃ GỘP vào CSV (mỗi đợt 40 SP).
+Tiến độ từng sản phẩm xem ở khung đen góc phải tab Lazada trong Chrome / tiêu đề tab.

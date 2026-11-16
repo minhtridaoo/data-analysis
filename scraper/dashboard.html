@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GPU · Theo dõi thu thập</title>
+<style>
+:root{color-scheme:dark;font:15px/1.6 system-ui,sans-serif;background:#0b1220;color:#e6edf7}*{box-sizing:border-box}body{max-width:1100px;margin:auto;padding:28px}h1{font-size:28px;margin:4px 0}h2{font-size:18px;margin:0 0 12px}.muted{color:#a8b6ca}.tag{color:#7dd3fc;font-size:12px;letter-spacing:2px}.panel{background:#121f32;border:1px solid #2a3b52;border-radius:16px;padding:20px;margin:18px 0}.notice{border-left:4px solid #fbbf24;background:#292418}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.num{font-size:34px;font-weight:700;color:#67e8f9}.stats .panel{margin:0}#years{display:grid;grid-template-columns:repeat(auto-fit,minmax(72px,1fr));gap:8px}.year{padding:10px;border-radius:8px;background:#173549;text-align:center}.empty{background:#202b3c;color:#98a6b9}.year b{display:block;font-size:20px}a{color:#7dd3fc}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.8 Consolas,monospace;max-height:360px;overflow:auto}.links{display:flex;gap:20px}#event{overflow-wrap:anywhere}button{background:#163b50;border:1px solid #32718d;color:#e6edf7;padding:8px 14px;border-radius:8px;cursor:pointer}@media(max-width:500px){body{padding:14px}.stats{grid-template-columns:1fr}.num{font-size:28px}}
+</style>
+<div class="tag">DS111 / GPU DATASET</div><h1>Theo dõi thu thập GPU</h1>
+<div class="muted" id="connection">Đang đọc dữ liệu trên máy…</div>
+<section class="panel notice"><h2>Trạng thái phiên trợ lý</h2><div id="access">Chưa nhận trạng thái</div></section>
+<div class="stats"><section class="panel">Card đã lưu<div class="num" id="cards">—</div></section><section class="panel">Dòng đã xuất<div class="num" id="exported">—</div></section><section class="panel">Chip đã lưu<div class="num" id="chips">—</div></section></div>
+<section class="panel"><h2>Sự kiện crawl gần nhất trong log</h2><div id="event">—</div><p class="muted">Đây là sự kiện đã ghi nhận, không phải xác nhận tiến trình đang chạy. Log cũ chỉ ghi giờ, không ghi ngày.</p></section>
+<section class="panel"><h2>Độ phủ năm · 2000–2026</h2><p class="muted">Tính từ bảng CSV đã parse. Số card đã lưu có thể lớn hơn số dòng đã xuất.</p><div id="years"></div><p id="missing"></p><div class="muted" id="exporttime"></div><p class="muted">Có card trong một năm không có nghĩa đã thu thập đủ năm đó.</p></section>
+<section class="panel"><h2>Nhật ký gần nhất</h2><pre id="log"></pre></section>
+<div class="links"><a href="/raw.csv" download="raw_gpu_data.csv">Tải bảng CSV</a><a href="/report" target="_blank">Báo cáo parse</a><button onclick="refresh()">Cập nhật</button></div>
+<script>
+const el=id=>document.getElementById(id);
+async function refresh(){try{const r=await fetch('/api/status',{cache:'no-store'});if(!r.ok)throw Error(r.status);const s=await r.json();for(const k of ['cards','exported','chips','access','log'])el(k).textContent=s[k];el('event').textContent=s.latest_crawl_event;el('connection').textContent='Dashboard hoạt động · cập nhật '+new Date(s.updated).toLocaleString('vi-VN',{timeZone:'Asia/Bangkok'})+' · tự làm mới mỗi 15 giây';el('years').replaceChildren();for(const [year,n] of Object.entries(s.years)){const d=document.createElement('div');d.className='year'+(n?'':' empty');d.textContent=year;const b=document.createElement('b');b.textContent=n;d.append(b);el('years').append(d)}el('missing').textContent='Chưa có dữ liệu: '+(s.missing.join(', ')||'Có ít nhất một card mỗi năm')+'. Không rõ năm: '+s.unknown_year;el('exporttime').textContent='CSV xuất lần cuối: '+(s.export_time?new Date(s.export_time).toLocaleString('vi-VN',{timeZone:'Asia/Bangkok'}):'chưa có');}catch(e){el('connection').textContent='MẤT KẾT NỐI DASHBOARD — số liệu dưới đây có thể đã cũ. '+e.message}}
+refresh();setInterval(refresh,15000);
+</script></html>

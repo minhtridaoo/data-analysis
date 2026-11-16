@@ -1,0 +1,182 @@
+11:50:42 WARNING HTTP 410 tại https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2022&sort=name (lần 1/4) -> chờ 30s
+11:51:14 WARNING trang captcha/chặn tại https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2022&sort=name (lần 2/4) -> chờ 60s
+11:52:18 WARNING trang captcha/chặn tại https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2022&sort=name (lần 3/4) -> chờ 120s
+11:54:21 WARNING trang captcha/chặn tại https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2022&sort=name (lần 4/4) -> chờ 240s
+11:58:21 INFO    Xong sau 7.8 phút, 5 request mạng.
+12:02:15 INFO    Xong sau 0.0 phút, 0 request mạng.
+12:02:35 INFO    Xong sau 0.0 phút, 0 request mạng.
+12:19:16 INFO    Xong sau 0.2 phút, 2 request mạng.
+12:20:39 INFO    Đã biết 276 trang (2 đã có cache).
+12:22:18 INFO      tải 25 trang (4.0 s/trang) | card đã có 1 | còn chờ 475 (chip 91)
+12:23:19 INFO    Đạt --max-pages=40, dừng.
+12:23:19 INFO    Xong sau 2.7 phút, 40 request mạng.
+12:27:15 INFO    raw_gpu_data.csv: 1 dòng × 53 cột (bỏ 0 ngoài 2000–2026, 0 không rõ năm) | all_fields: 77 cột
+12:27:15 INFO    Xong sau 0.0 phút, 0 request mạng.
+12:29:53 INFO    Đã biết 706 trang (42 đã có cache).
+12:29:59 ERROR   DỪNG vì bị chặn: captcha tại https://www.techpowerup.com/gpu-specs/amd-vega-20.g848. Đợi vài giờ (mở trang bằng trình duyệt thấy bình thường) rồi chạy lại đúng lệnh — sẽ tiếp tục từ cache.
+12:29:59 INFO    Xong sau 0.1 phút, 2 request mạng.
+12:44:13 INFO    raw_gpu_data.csv: 1 dòng × 53 cột (bỏ 0 ngoài 2000–2026, 0 không rõ năm) | all_fields: 77 cột
+12:44:13 INFO    Xong sau 0.0 phút, 0 request mạng.
+12:44:43 INFO    Đã biết 712 trang (43 đã có cache).
+12:47:25 WARNING Lỗi mạng (ConnectionError) https://www.techpowerup.com/gpu-specs/nvidia-gp100.g792 -> chờ 15s
+12:48:01 INFO    Đạt --max-pages=10, dừng.
+12:48:01 INFO    Xong sau 3.3 phút, 11 request mạng.
+12:59:05 INFO    raw_gpu_data.csv: 1 dòng × 53 cột (bỏ 0 ngoài 2000–2026, 0 không rõ năm) | all_fields: 77 cột
+12:59:05 INFO    Xong sau 0.0 phút, 0 request mạng.
+13:02:29 INFO    Đã biết 843 trang (53 đã có cache).
+13:03:53 INFO      tải 5 trang (16.9 s/trang) | card đã có 4 | còn chờ 798 (chip 98)
+13:05:18 INFO      tải 10 trang (17.0 s/trang) | card đã có 6 | còn chờ 799 (chip 96)
+13:05:18 INFO    Đạt --max-pages=10, dừng.
+13:05:18 INFO    Xong sau 2.8 phút, 10 request mạng.
+13:34:33 INFO    Đã biết 861 trang (63 đã có cache).
+13:35:40 WARNING Lỗi mạng (ConnectTimeout) https://www.techpowerup.com/gpu-specs/amd-devastator.g366 -> chờ 15s
+13:36:31 WARNING Lỗi mạng (ConnectTimeout) https://www.techpowerup.com/gpu-specs/amd-devastator.g366 -> chờ 30s
+13:38:01 WARNING Lỗi mạng (ConnectionError) https://www.techpowerup.com/gpu-specs/amd-devastator-lite.g899 -> chờ 15s
+13:38:35 WARNING Đã dừng bằng Ctrl+C — chạy lại cùng lệnh sẽ tiếp tục từ cache.
+13:38:35 INFO    Xong sau 4.2 phút, 7 request mạng.
+13:38:42 INFO    Đã biết 869 trang (66 đã có cache).
+13:40:08 INFO      tải 5 trang (17.1 s/trang) | card đã có 11 | còn chờ 802 (chip 104)
+13:41:41 WARNING Lỗi mạng (ConnectTimeout) https://www.techpowerup.com/gpu-specs/radeon-hd-8610g-igp.c2190 -> chờ 15s
+13:42:31 INFO      tải 10 trang (22.9 s/trang) | card đã có 13 | còn chờ 804 (chip 98)
+13:42:31 INFO    Đạt --max-pages=10, dừng.
+13:42:31 INFO    Xong sau 3.8 phút, 11 request mạng.
+13:42:58 INFO    raw_gpu_data.csv: 13 dòng × 53 cột (bỏ 0 ngoài 2000–2026, 0 không rõ năm) | all_fields: 86 cột
+13:42:58 INFO    Xong sau 0.0 phút, 0 request mạng.
+13:44:19 INFO    Đã biết 879 trang (76 đã có cache).
+13:45:47 INFO      tải 5 trang (17.6 s/trang) | card đã có 16 | còn chờ 803 (chip 96)
+13:46:26 WARNING Lỗi mạng (ConnectTimeout) https://www.techpowerup.com/gpu-specs/nvidia-ad104gl.g1180 -> chờ 15s
+13:47:59 INFO      tải 10 trang (22.1 s/trang) | card đã có 18 | còn chờ 812 (chip 93)
+13:49:16 INFO      tải 15 trang (19.8 s/trang) | card đã có 21 | còn chờ 823 (chip 91)
+13:50:57 INFO      tải 20 trang (19.9 s/trang) | card đã có 23 | còn chờ 827 (chip 88)
+13:51:52 WARNING Lỗi mạng (ConnectTimeout) https://www.techpowerup.com/gpu-specs/nvidia-gb205gl.g1185 -> chờ 15s
+13:52:41 WARNING Lỗi mạng (ConnectTimeout) https://www.techpowerup.com/gpu-specs/nvidia-gb205gl.g1185 -> chờ 30s
+13:53:51 WARNING Lỗi mạng (ConnectTimeout) https://www.techpowerup.com/gpu-specs/nvidia-gb205gl.g1185 -> chờ 60s
+13:55:53 INFO      tải 25 trang (27.8 s/trang) | card đã có 26 | còn chờ 825 (chip 86)
+13:57:17 WARNING Lỗi mạng (ConnectionError) https://www.techpowerup.com/gpu-specs/radeon-hd-8410g-igp.c2192 -> chờ 15s
+13:57:59 INFO      tải 30 trang (27.3 s/trang) | card đã có 28 | còn chờ 827 (chip 83)
+13:59:15 INFO      tải 35 trang (25.6 s/trang) | card đã có 31 | còn chờ 824 (chip 81)
+13:59:30 WARNING Lỗi mạng (ConnectionError) https://www.techpowerup.com/gpu-specs/nvidia-gr206.g1124 -> chờ 15s
+14:01:16 INFO      tải 40 trang (25.4 s/trang) | card đã có 33 | còn chờ 820 (chip 78)
+14:01:31 WARNING Lỗi mạng (ConnectionError) https://www.techpowerup.com/gpu-specs/geforce-rtx-5060.c4219 -> chờ 15s
+14:03:12 INFO      tải 45 trang (25.2 s/trang) | card đã có 36 | còn chờ 819 (chip 76)
+14:04:24 WARNING Lỗi mạng (ConnectTimeout) https://www.techpowerup.com/gpu-specs/amd-scrapper-lite-m.g1148 -> chờ 15s
+14:05:34 INFO      tải 50 trang (25.5 s/trang) | card đã có 38 | còn chờ 814 (chip 73)
+14:07:19 INFO      tải 55 trang (25.1 s/trang) | card đã có 41 | còn chờ 810 (chip 71)
+14:08:43 INFO      tải 60 trang (24.4 s/trang) | card đã có 43 | còn chờ 837 (chip 68)
+14:10:18 WARNING Lỗi mạng (ConnectTimeout) https://www.techpowerup.com/gpu-specs/nvidia-gt218.g1035 -> chờ 15s
+14:11:05 INFO      tải 65 trang (24.7 s/trang) | card đã có 46 | còn chờ 857 (chip 66)
+14:11:59 WARNING Lỗi mạng (ConnectionError) https://www.techpowerup.com/gpu-specs/geforce-rtx-4060.c4107 -> chờ 15s
+14:12:48 INFO      tải 70 trang (24.4 s/trang) | card đã có 48 | còn chờ 876 (chip 63)
+14:14:15 WARNING Lỗi mạng (ConnectTimeout) https://www.techpowerup.com/gpu-specs/nvidia-gm20b.g990 -> chờ 15s
+14:15:06 WARNING Lỗi mạng (ConnectTimeout) https://www.techpowerup.com/gpu-specs/nvidia-gm20b.g990 -> chờ 30s
+14:16:19 INFO      tải 75 trang (25.6 s/trang) | card đã có 51 | còn chờ 875 (chip 61)
+14:17:41 INFO      tải 80 trang (25.0 s/trang) | card đã có 53 | còn chờ 876 (chip 58)
+14:17:56 WARNING Lỗi mạng (ConnectionError) https://www.techpowerup.com/gpu-specs/radeon-rx-5700-xt.c3339 -> chờ 15s
+14:19:17 INFO      tải 85 trang (24.7 s/trang) | card đã có 56 | còn chờ 874 (chip 56)
+14:20:30 INFO      tải 90 trang (24.1 s/trang) | card đã có 58 | còn chờ 901 (chip 53)
+14:21:56 INFO      tải 95 trang (23.8 s/trang) | card đã có 61 | còn chờ 906 (chip 51)
+14:23:29 INFO      tải 100 trang (23.5 s/trang) | card đã có 63 | còn chờ 905 (chip 48)
+14:23:29 INFO    Đạt --max-pages=100, dừng.
+14:23:29 INFO    Xong sau 39.2 phút, 112 request mạng.
+14:24:14 INFO    raw_gpu_data.csv: 63 dòng × 53 cột (bỏ 0 ngoài 2000–2026, 0 không rõ năm) | all_fields: 108 cột
+14:24:14 INFO    Xong sau 0.2 phút, 0 request mạng.
+14:35:51 INFO    Đã biết 1081 trang (175 đã có cache).
+14:37:11 WARNING Lỗi mạng (ConnectionError) https://www.techpowerup.com/gpu-specs/geforce-rtx-3050-8-gb.c3858 -> chờ 15s
+14:37:49 INFO      tải 5 trang (23.7 s/trang) | card đã có 66 | còn chờ 906 (chip 47)
+14:39:07 INFO      tải 10 trang (19.7 s/trang) | card đã có 68 | còn chờ 920 (chip 44)
+14:39:59 WARNING Lỗi mạng (ConnectionError) https://www.techpowerup.com/gpu-specs/amd-raven-m.g1056 -> chờ 15s
+14:40:55 WARNING Lỗi mạng (ConnectTimeout) https://www.techpowerup.com/gpu-specs/amd-raven-m.g1056 -> chờ 30s
+14:41:57 INFO      tải 15 trang (24.4 s/trang) | card đã có 71 | còn chờ 925 (chip 42)
+14:43:00 WARNING Đã dừng bằng Ctrl+C — chạy lại cùng lệnh sẽ tiếp tục từ cache.
+14:43:00 INFO    Xong sau 7.2 phút, 21 request mạng.
+09:36:06 INFO    Đã biết 1121 trang (193 đã có cache).
+09:37:48 INFO      tải 5 trang (20.3 s/trang) | card đã có 75 | còn chờ 936 (chip 38)
+09:38:22 WARNING Lỗi mạng (ConnectionError) https://www.techpowerup.com/gpu-specs/geforce-rtx-4070-super.c4186 -> chờ 15s
+09:39:43 INFO      tải 10 trang (21.7 s/trang) | card đã có 77 | còn chờ 948 (chip 35)
+09:41:04 INFO      tải 15 trang (19.8 s/trang) | card đã có 80 | còn chờ 946 (chip 33)
+09:42:24 INFO      tải 20 trang (18.9 s/trang) | card đã có 82 | còn chờ 947 (chip 30)
+09:43:48 INFO      tải 25 trang (18.5 s/trang) | card đã có 85 | còn chờ 947 (chip 28)
+09:45:07 INFO      tải 30 trang (18.0 s/trang) | card đã có 87 | còn chờ 951 (chip 25)
+09:46:35 INFO      tải 35 trang (18.0 s/trang) | card đã có 90 | còn chờ 948 (chip 23)
+09:48:02 INFO      tải 40 trang (17.9 s/trang) | card đã có 92 | còn chờ 946 (chip 20)
+09:49:26 INFO      tải 45 trang (17.8 s/trang) | card đã có 95 | còn chờ 944 (chip 18)
+09:50:01 WARNING Lỗi mạng (ConnectionError) https://www.techpowerup.com/gpu-specs/geforce-rtx-2080-super.c3439 -> chờ 15s
+09:50:56 ERROR   DỪNG vì bị chặn: captcha tại https://www.techpowerup.com/gpu-specs/radeon-rx-7600-xt.c4190. Đợi vài giờ (mở trang bằng trình duyệt thấy bình thường) rồi chạy lại đúng lệnh — sẽ tiếp tục từ cache.
+09:50:56 INFO    Xong sau 15.2 phút, 51 request mạng.
+09:52:45 INFO    raw_gpu_data.csv: 95 dòng × 53 cột (bỏ 1 ngoài 2000–2026, 0 không rõ năm) | all_fields: 109 cột
+09:52:45 INFO    Xong sau 0.2 phút, 0 request mạng.
+10:09:27 INFO    Đã biết 1186 trang (241 đã có cache).
+10:10:43 ERROR   DỪNG vì bị chặn: captcha tại https://www.techpowerup.com/gpu-specs/radeon-rx-7600-xt.c4190. Đợi vài giờ (mở trang bằng trình duyệt thấy bình thường) rồi chạy lại đúng lệnh — sẽ tiếp tục từ cache.
+10:10:43 INFO    Xong sau 1.5 phút, 1 request mạng.
+10:16:49 INFO    raw_gpu_data.csv: 95 dòng × 53 cột (bỏ 1 ngoài 2000–2026, 0 không rõ năm) | all_fields: 109 cột
+10:16:49 INFO    Xong sau 0.1 phút, 0 request mạng.
+2026-11-14 10:58:27 +07:00 WARNING ASSISTANT: Shared Chrome tab connection failed: Local browser access is unavailable for this chat. Crawler NOT started; no new requests sent.
+22:46:28 INFO    Đã biết 1186 trang (241 đã có cache). Chạy theo đợt 20 trang.
+22:47:07 INFO    Đã thử 1 | lưu mới 1 | lỗi 0 | còn thiếu 944
+22:47:54 INFO    Đã thử 2 | lưu mới 2 | lỗi 0 | còn thiếu 944
+22:48:28 INFO    Đã thử 3 | lưu mới 3 | lỗi 0 | còn thiếu 943
+22:49:29 INFO    Đã thử 4 | lưu mới 4 | lỗi 0 | còn thiếu 943
+22:50:21 INFO    Đã thử 5 | lưu mới 5 | lỗi 0 | còn thiếu 942
+22:50:57 INFO    Đã thử 6 | lưu mới 6 | lỗi 0 | còn thiếu 943
+22:51:57 INFO    Đã thử 7 | lưu mới 7 | lỗi 0 | còn thiếu 942
+22:52:46 INFO    Đã thử 8 | lưu mới 8 | lỗi 0 | còn thiếu 942
+22:53:19 INFO    Đã thử 9 | lưu mới 9 | lỗi 0 | còn thiếu 941
+22:53:54 INFO    Đã thử 10 | lưu mới 10 | lỗi 0 | còn thiếu 941
+22:54:00 INFO    raw_gpu_data.csv: 100 dòng × 53 cột (bỏ 1 ngoài 2000–2026, 0 không rõ năm) | all_fields: 109 cột
+22:54:00 INFO    Xong sau 8.0 phút, 10 request mạng.
+23:02:59 INFO    Đã biết 1192 trang (251 đã có cache). Chạy theo đợt 20 trang.
+23:03:39 INFO    Đã thử 1 | lưu mới 1 | lỗi 0 | còn thiếu 940
+23:04:32 INFO    Đã thử 2 | lưu mới 2 | lỗi 0 | còn thiếu 958
+23:05:28 INFO    Đã thử 3 | lưu mới 3 | lỗi 0 | còn thiếu 957
+23:06:18 INFO    Đã thử 4 | lưu mới 4 | lỗi 0 | còn thiếu 966
+23:06:59 INFO    Đã thử 5 | lưu mới 5 | lỗi 0 | còn thiếu 965
+23:07:51 INFO    Đã thử 6 | lưu mới 6 | lỗi 0 | còn thiếu 967
+23:08:51 INFO    Đã thử 7 | lưu mới 7 | lỗi 0 | còn thiếu 966
+23:09:52 INFO    Đã thử 8 | lưu mới 8 | lỗi 0 | còn thiếu 967
+23:10:53 INFO    Đã thử 9 | lưu mới 9 | lỗi 0 | còn thiếu 966
+23:11:50 INFO    Đã thử 10 | lưu mới 10 | lỗi 0 | còn thiếu 977
+23:12:35 INFO    Đã thử 11 | lưu mới 11 | lỗi 0 | còn thiếu 976
+23:13:32 INFO    Đã thử 12 | lưu mới 12 | lỗi 0 | còn thiếu 977
+23:14:16 INFO    Đã thử 13 | lưu mới 13 | lỗi 0 | còn thiếu 976
+23:14:51 INFO    Đã thử 14 | lưu mới 14 | lỗi 0 | còn thiếu 990
+23:15:30 INFO    Đã thử 15 | lưu mới 15 | lỗi 0 | còn thiếu 989
+23:16:21 INFO    Đã thử 16 | lưu mới 16 | lỗi 0 | còn thiếu 989
+23:16:58 INFO    Đã thử 17 | lưu mới 17 | lỗi 0 | còn thiếu 988
+23:17:58 INFO    Đã thử 18 | lưu mới 18 | lỗi 0 | còn thiếu 988
+23:18:32 INFO    Đã thử 19 | lưu mới 19 | lỗi 0 | còn thiếu 987
+23:19:18 INFO    Đã thử 20 | lưu mới 20 | lỗi 0 | còn thiếu 988
+23:19:25 INFO    raw_gpu_data.csv: 110 dòng × 53 cột (bỏ 1 ngoài 2000–2026, 0 không rõ năm) | all_fields: 109 cột
+23:19:25 INFO    Nghỉ giữa đợt 176 giây.
+23:22:58 INFO    Đã thử 21 | lưu mới 21 | lỗi 0 | còn thiếu 987
+23:23:36 INFO    Đã thử 22 | lưu mới 22 | lỗi 0 | còn thiếu 994
+23:24:09 INFO    Đã thử 23 | lưu mới 23 | lỗi 0 | còn thiếu 993
+23:24:42 INFO    Đã thử 24 | lưu mới 24 | lỗi 0 | còn thiếu 992
+23:25:27 INFO    Đã thử 25 | lưu mới 25 | lỗi 0 | còn thiếu 991
+23:25:58 INFO    Đã thử 26 | lưu mới 26 | lỗi 0 | còn thiếu 990
+23:26:45 INFO    Đã thử 27 | lưu mới 27 | lỗi 0 | còn thiếu 989
+23:27:24 INFO    Đã thử 28 | lưu mới 28 | lỗi 0 | còn thiếu 988
+23:28:00 INFO    Đã thử 29 | lưu mới 29 | lỗi 0 | còn thiếu 987
+23:28:40 INFO    Đã thử 30 | lưu mới 30 | lỗi 0 | còn thiếu 986
+23:29:38 INFO    Đã thử 31 | lưu mới 31 | lỗi 0 | còn thiếu 985
+23:30:12 INFO    Đã thử 32 | lưu mới 32 | lỗi 0 | còn thiếu 984
+23:31:02 INFO    Đã thử 33 | lưu mới 33 | lỗi 0 | còn thiếu 983
+23:31:48 INFO    Đã thử 34 | lưu mới 34 | lỗi 0 | còn thiếu 982
+23:32:20 INFO    Đã thử 35 | lưu mới 35 | lỗi 0 | còn thiếu 981
+23:33:15 INFO    Đã thử 36 | lưu mới 36 | lỗi 0 | còn thiếu 980
+23:33:58 INFO    Đã thử 37 | lưu mới 37 | lỗi 0 | còn thiếu 979
+23:34:32 INFO    Đã thử 38 | lưu mới 38 | lỗi 0 | còn thiếu 978
+23:35:11 INFO    Đã thử 39 | lưu mới 39 | lỗi 0 | còn thiếu 977
+23:36:11 INFO    Đã thử 40 | lưu mới 40 | lỗi 0 | còn thiếu 976
+23:36:20 INFO    raw_gpu_data.csv: 129 dòng × 53 cột (bỏ 1 ngoài 2000–2026, 0 không rõ năm) | all_fields: 123 cột
+23:36:27 INFO    raw_gpu_data.csv: 129 dòng × 53 cột (bỏ 1 ngoài 2000–2026, 0 không rõ năm) | all_fields: 123 cột
+23:36:27 INFO    Xong sau 33.5 phút, 40 request mạng.
+23:42:51 INFO    Đã biết 1267 trang (291 đã có cache). Chạy theo đợt 20 trang.
+23:43:41 INFO    Đã thử 1 | lưu mới 1 | lỗi 0 | còn thiếu 975
+23:44:35 INFO    Đã thử 2 | lưu mới 2 | lỗi 0 | còn thiếu 974
+23:45:28 INFO    Đã thử 3 | lưu mới 3 | lỗi 0 | còn thiếu 974
+23:46:04 INFO    Đã thử 4 | lưu mới 4 | lỗi 0 | còn thiếu 987
+23:46:45 INFO    Đã thử 5 | lưu mới 5 | lỗi 0 | còn thiếu 986
+23:47:24 INFO    Đã thử 6 | lưu mới 6 | lỗi 0 | còn thiếu 995
+23:48:17 INFO    raw_gpu_data.csv: 133 dòng × 53 cột (bỏ 1 ngoài 2000–2026, 0 không rõ năm) | all_fields: 123 cột
+23:48:17 ERROR   DỪNG vì bị chặn: captcha tại https://www.techpowerup.com/gpu-specs/details.c2663. Đợi vài giờ (mở trang bằng trình duyệt thấy bình thường) rồi chạy lại đúng lệnh — sẽ tiếp tục từ cache.
+23:48:17 INFO    Xong sau 5.5 phút, 7 request mạng.

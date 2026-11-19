@@ -1,6 +1,6 @@
-# Báo cáo parse — 2026-11-15 23:48
+# Báo cáo parse — 2026-11-20 00:18
 
-- Trang card trong cache: 134 | giữ: **133** | bỏ ngoài 2000–2026: 1 | không rõ năm (giữ): 0 | cột raw: **53**
+- Trang card trong cache: 505 | giữ: **375** | bỏ ngoài 2012–2025: 130 | không rõ năm (giữ): 33 | cột raw: **53**
 
 | Cột | Tỉ lệ điền |
 |---|---|
@@ -8,22 +8,22 @@
 | url | 100.0% |
 | product_name | 100.0% |
 | gpu_chip | 100.0% |
-| gpu_variant | 78.9% |
+| gpu_variant | 65.6% |
 | architecture | 100.0% |
 | foundry | 100.0% |
 | process_size | 100.0% |
 | transistors | 100.0% |
-| density | 99.2% |
+| density | 98.4% |
 | die_size | 100.0% |
 | release_date | 100.0% |
 | availability | 0.0% |
 | generation | 100.0% |
-| production | 100.0% |
-| launch_price | 75.2% |
-| bus_interface | 99.2% |
+| production | 96.5% |
+| launch_price | 45.9% |
+| bus_interface | 98.7% |
 | base_clock | 100.0% |
-| game_clock | 21.8% |
-| boost_clock | 89.5% |
+| game_clock | 11.2% |
+| boost_clock | 90.9% |
 | memory_clock | 100.0% |
 | memory_size | 100.0% |
 | memory_type | 100.0% |
@@ -32,28 +32,28 @@
 | shading_units | 100.0% |
 | tmus | 100.0% |
 | rops | 100.0% |
-| sm_count | 39.1% |
-| compute_units | 53.4% |
-| execution_units | 3.0% |
-| tensor_cores | 27.8% |
-| rt_cores | 49.6% |
-| l1_cache | 91.7% |
-| l2_cache | 97.7% |
-| l3_cache | 18.8% |
+| sm_count | 44.3% |
+| compute_units | 42.1% |
+| execution_units | 5.1% |
+| tensor_cores | 39.2% |
+| rt_cores | 61.6% |
+| l1_cache | 94.1% |
+| l2_cache | 99.2% |
+| l3_cache | 11.7% |
 | pixel_rate | 100.0% |
 | texture_rate | 100.0% |
-| fp16 | 72.9% |
+| fp16 | 78.9% |
 | fp32 | 100.0% |
-| fp64 | 97.0% |
-| slot_width | 99.2% |
-| length | 67.7% |
+| fp64 | 95.2% |
+| slot_width | 98.7% |
+| length | 53.3% |
 | tdp | 100.0% |
-| suggested_psu | 75.9% |
+| suggested_psu | 59.5% |
 | outputs | 100.0% |
-| power_connectors | 78.2% |
+| power_connectors | 88.5% |
 | directx | 100.0% |
 | opengl | 100.0% |
 | opencl | 100.0% |
 | vulkan | 100.0% |
-| cuda | 43.6% |
+| cuda | 52.8% |
 | shader_model | 100.0% |
